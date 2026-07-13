@@ -34,11 +34,11 @@ mało prób na konto → wiele kont
 * źródło danych: syntetyczne logi Windows,
 * analizowane zdarzenia:
 
-  * `4624` — udane logowanie,
-  * `4625` — nieudane logowanie,
-  * `4672` — przypisanie specjalnych uprawnień do nowego logowania,
-  * `4768` — żądanie biletu uwierzytelniającego Kerberos TGT,
-  * `4740` — zablokowanie konta.
+  * `4624` - udane logowanie,
+  * `4625` - nieudane logowanie,
+  * `4672` - przypisanie specjalnych uprawnień do nowego logowania,
+  * `4768` - żądanie biletu uwierzytelniającego Kerberos TGT,
+  * `4740` - zablokowanie konta.
 
 ## Zastosowane zapytania
 
