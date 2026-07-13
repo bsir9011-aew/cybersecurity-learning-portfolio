@@ -1,4 +1,4 @@
-# Lab 04 — HTTP Request and Response Analysis
+# Lab 04 - HTTP Request and Response Analysis
 
 ## Cel
 
