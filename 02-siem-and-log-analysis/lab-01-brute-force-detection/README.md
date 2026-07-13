@@ -21,10 +21,10 @@ Zadaniem analityka było ustalenie:
 * źródło danych: syntetyczne logi Windows,
 * analizowane zdarzenia:
 
-  * `4624` — udane logowanie,
-  * `4625` — nieudane logowanie,
-  * `4672` — przydzielenie specjalnych uprawnień,
-  * `4740` — zablokowanie konta.
+  * `4624` - udane logowanie,
+  * `4625` - nieudane logowanie,
+  * `4672` - przydzielenie specjalnych uprawnień,
+  * `4740` - zablokowanie konta.
 
 ## Zastosowane zapytania
 
@@ -69,7 +69,7 @@ Zidentyfikowano:
 
 Po serii nieudanych prób nastąpiło:
 
-1. udane logowanie — zdarzenie `4624`,
+1. udane logowanie - zdarzenie `4624`,
 2. przydzielenie specjalnych uprawnień — zdarzenie `4672`.
 
 ## Oś czasu
