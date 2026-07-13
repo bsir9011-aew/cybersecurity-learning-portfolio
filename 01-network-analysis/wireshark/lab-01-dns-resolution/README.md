@@ -1,4 +1,4 @@
-## Lab 01 - DNS Resolution Analysis
+# Lab 01 - DNS Resolution Analysis
 
 ##  Cel
 Celem jest zrozumienie jak komputer uzyskuje adres IP domeny za pomocą protokołu DNS oraz jak rozpoznać zapytanie i odpowiedź DNS w Wiresharku
@@ -6,7 +6,7 @@ Celem jest zrozumienie jak komputer uzyskuje adres IP domeny za pomocą protoko�
 ## Scenariusz
 User wpisuje adres strony w przeglądarce. Komputer nie zna jej adresu IP, dlatego wysyła zapytanie do serwera DNS
 
-Zastosowano filtr ,,dns"
+Zastosowano filtr `dns`
 Filtr wyświetla pakiety rozpoznane przez Wiresharka jako ruch DNS
 
 ## Przebieg komunikacji
@@ -36,7 +36,7 @@ przykład example.com -> 93.184.216.34
 
 - DNS działa jak książka telefoniczna internetu,
 - Komputer pyta o adres IP, ponieważ komunikacja sieciowa odbywa się między adresami IP, a nie samymi nazwami domen
-- Klient używa losowego portu źródłowego
+- Klient używa tymczasowo przypisanego portu źródłowego z puli portów dynamicznych
 - Serwer DNS nasłuchuje standardowo na porcie 53
 - Odpowiedź wraca na ten sam port klienta, z którego wysłano zapytania
 - Po otrzymaniu adresu IP komputer może rozpocząć połączenie z serwerem docelowym
@@ -54,4 +54,4 @@ przykład example.com -> 93.184.216.34
 
 Dns jest pierwszym etapem wielu połączeń sieciowych. Zanim komputer połączy się ze stroną internetową, najczęściej musi najpierw ustalić jej adres IP.
 
-Analiza DND może również pomóc analitykowi bezpieczeństwa wykryć podejrzane domeny, nietypoe zapytania oraz komunikację z infrastrukturą należącą do atakującego
+Analiza DNS może również pomóc analitykowi bezpieczeństwa wykryć podejrzane domeny, nietypoe zapytania oraz komunikację z infrastrukturą należącą do atakującego
