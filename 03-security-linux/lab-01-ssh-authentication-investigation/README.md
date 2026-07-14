@@ -1,4 +1,4 @@
-# Lab 01 — SSH Authentication Investigation
+# Lab 01 - SSH Authentication Investigation
 
 ## Cel laboratorium
 
